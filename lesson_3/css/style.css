@@ -1,0 +1,50 @@
+@import url("reset.css");
+
+header {
+  color: aqua;
+}
+
+.main {
+  color: green;
+}
+
+#color-blue {
+  color: blue;
+}
+
+div.link-text {
+  color: aquamarine;
+}
+
+.header__container.text {
+  color: brown;
+}
+
+.main__text-another-section,
+.footer__text {
+  color: cadetblue;
+}
+
+.main__unordered-list li {
+  color: chartreuse;
+}
+
+.another-text .lesson {
+  color: chocolate;
+}
+
+.footer__another-text > p {
+  color: crimson;
+}
+
+.footer__another-text ~ div {
+  color: darkgoldenrod;
+}
+
+.footer__text + div {
+  color: darkgreen;
+}
+
+[class*="__section"] {
+  color: darkorchid;
+}
