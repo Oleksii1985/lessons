@@ -1,0 +1,81 @@
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 15px auto 60px auto;
+}
+
+.section {
+  max-width: 816px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.section__heading {
+  margin: 0 0 40px;
+  color: #212529;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6; /* 40/25 */
+}
+
+.section__text {
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 1.8; /* 25/14 */
+  color: #6c757d;
+}
+
+.image01 {
+  margin-bottom: 80px;
+  max-width: 100%;
+}
+
+.images {
+  font-size: 0;
+  margin-bottom: 80px;
+}
+
+.image02 {
+  margin-right: 30px;
+  max-width: 100%;
+}
+
+.image03 {
+  max-width: 100%;
+}
+
+.footer {
+  max-width: 816px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.block {
+  color: green;
+  height: 100px;
+  overflow: scroll;
+  margin: 10px;
+}
+
+.link {
+  color: aqua;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.inline {
+  color: red;
+}
+
+.inline-block {
+  margin: 20px;
+  width: 100px;
+  vertical-align: middle;
+}
