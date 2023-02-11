@@ -1,0 +1,88 @@
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #6c757d;
+}
+[class*="__container"] {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.article {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.article__text-block {
+  max-width: 816px;
+  margin: 0 auto 80px;
+}
+.article__title {
+  max-width: 605px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6; /* 40/25 */
+  color: #212529;
+  margin-bottom: 40px;
+}
+.article__text-block p {
+  line-height: 1.78; /* 25/14 */
+  margin-bottom: 30px;
+}
+.article__text-block p:last-child {
+  margin-bottom: 0;
+}
+.article__image {
+  max-width: 100%;
+}
+.image-desert {
+  margin-bottom: 80px;
+}
+.article__images {
+  margin-bottom: 80px;
+  font-size: 0;
+}
+.image-girl {
+  margin-right: 30px;
+}
+.secont-article__image {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.second-article__container {
+  padding-bottom: 100px;
+}
+.text-block__margin p:last-child,
+.second-article__title,
+.images__margin {
+  margin-bottom: 100px;
+}
+.black-clothes-image {
+  margin-right: 30px;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.block {
+  background-color: aqua;
+  border: 5px solid green;
+  margin-bottom: 20px;
+  box-shadow: 2px 5px 3px #212529;
+}
+.inline {
+  background-color: burlywood;
+  outline: 4px dotted red;
+  opacity: 0.5;
+  /* visibility: hidden; */
+}
+.inline-block {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
